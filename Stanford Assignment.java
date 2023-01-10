@@ -1,27 +1,28 @@
 import java.util.*;
-public class assign{
+public class Assignment{
 
     
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        int SequenceOfNumbers = scan.nextInt();
-        int array[]=new int[SequenceOfNumbers];
+        int Sequenceofnumbers = scan.nextInt();
+        int array[]=new int[Sequenceofnumbers];
  
-        for(int i=0;i<SequenceOfNumbers;i++){
+        for(int i=0;i<Sequenceofnumbers;i++){
             array[i] = scan.nextInt();
         }
-        int EvenCount=0,OddCount=0;
+        int evenCount = 0;
+        int oddEvent = 0;
  
-        for(int i=0;i<SequenceOfNumbers;i++) {
+        for(int i=0;i<Sequenceofnumbers;i++) {
             if( array[i] % 2 == 0 ){
-                EvenCount++;
+                evenCount++;
             } else {
-                OddCount++;
+                oddEvent++;
             }
         }
-        int OddPercentile=c2%4;
-        int EvenPercentile=c1%2;             
-        if(OddPercentile ==3|| OddPercentile==0||(EvenPercentile==1 && EvenPercentile==1)){
+        int oddRemainder=c2%4;
+        int evenRemainder=c1%2;             
+        if(oddRemainder ==3|| oddRemainder==0||(evenRemainder==1 && evenRemainder==1)){
             System.out.println("Alice Win");
             }else{
             System.out.println("Bob Win");
