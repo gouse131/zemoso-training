@@ -22,7 +22,7 @@ public class Assignment{
         }
         int oddRemainder = oddCount%4;
         int evenRemainder = evenCount%2;             
-        if(oddRemainder == 3 || oddRemainder == 0|| (evenRemainder == 1 && evenRemainder == 1)){
+        if(oddRemainder == 3 || oddRemainder == 0|| (evenRemainder == 1 && oddRemainder == 1)){
             System.out.println("Alice Win");
             }else{
             System.out.println("Bob Win");
