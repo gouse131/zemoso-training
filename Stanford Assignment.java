@@ -10,6 +10,7 @@ public class Assignment{
         for(int i=0;i<Sequenceofnumbers;i++){
             array[i] = scan.nextInt();
         }
+        
         int evenCount = 0;
         int oddEvent = 0;
  
@@ -21,7 +22,8 @@ public class Assignment{
             }
         }
         int oddRemainder=c2%4;
-        int evenRemainder=c1%2;             
+        int evenRemainder=c1%2;   
+        
         if(oddRemainder ==3|| oddRemainder==0||(evenRemainder==1 && evenRemainder==1)){
             System.out.println("Alice Win");
             }else{
