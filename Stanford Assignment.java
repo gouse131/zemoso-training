@@ -25,7 +25,7 @@ public class Assignment{
         if(oddRemainder == 3 || oddRemainder == 0|| (evenRemainder == 1 && oddRemainder == 1)){
             System.out.println("Alice Win");
             }else{
-            System.out.println("Bob Win");
+            System.out.println("Bob Win"); 
         }
     }
 }
